@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken');
 const gravatar = require('gravatar');
 const keys = require('../config/keys');
 const validateSignUpInput = require('../validation/sign-up');
-const validateSignInInput = require('../validation/sign-In');
+const validateSignInInput = require('../validation/sign-in');
 
 function signUp(req, res) {
   const {errors, isValid} = validateSignUpInput(req.body);
