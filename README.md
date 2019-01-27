@@ -1,0 +1,6 @@
+## React-Node-Express-MongoDB Boilerplate
+
+# Features
+
+    * Authentication
+    * Validation
