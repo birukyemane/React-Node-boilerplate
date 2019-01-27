@@ -3,5 +3,7 @@
 # Features
 
     * Authentication
+        * JWT strategy
     * Validation
+        * validator.js // node package
     * protected routes
