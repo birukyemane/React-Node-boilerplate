@@ -10,7 +10,7 @@
         
 
     * protected routes
-        * 
+        * PrivateRoute // custom component to create protected routes
 
     * CRUD functionalities
         * user can add, edit delete and view 
