@@ -4,6 +4,8 @@
 
     * Authentication
         * JWT strategy
+        * bcryptjs // used to hash passwords
+        * gravator // used for user avator 
 
     * Validation
         * validator.js // node package
