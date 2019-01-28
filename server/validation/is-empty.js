@@ -1,3 +1,5 @@
+// checks if a variable is empty or not
+
 const isEmpty = value => {
   return (
     value === null ||
