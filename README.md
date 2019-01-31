@@ -8,8 +8,7 @@
         * gravator // used for user avator 
 
     * Validation
-        * validator.js // node package
-        
+        * validator.js // node package        
 
     * protected routes
         * PrivateRoute // custom component to create protected routes
