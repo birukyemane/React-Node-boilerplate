@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom';
 import auth from '../../auth'
 
-const PrivateRoute = ({component: Component, ...rest}) => (
+const PrivateRoute = ({component: Component, ...rest}) => ( // used to create a protected route
   <Route
     {...rest}
     render={props =>
