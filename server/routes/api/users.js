@@ -8,7 +8,7 @@ const userRouter = express.Router();
 userRouter.post('/signup', signUp);
 userRouter.post('/signin', signIn);
 
-// protected route
+// protected route using jwt
 userRouter.get('/current', verifyToken, (req, res) => {
   jwt.verify(req.token, keys.secretOrKey, function(err, data) {
     if (err) {
