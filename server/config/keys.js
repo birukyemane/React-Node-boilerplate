@@ -1,5 +1,5 @@
 module.exports = {
   secretOrKey: 'secret',
   mongoURI:
-    'mongodb://asabeneh:abc123123123@ds129904.mlab.com:29904/students-test',
+    'mongodb://asabeneh:abc123123123@ds129904.mlab.com:29904/students-test', // to connect to the database
 };
