@@ -18,7 +18,7 @@ userRouter.get('/current', verifyToken, (req, res) => {
     }
   });
 });
-// protected route
+// protected route using passport
 userRouter.get(
   '/any/addd',
   passport.authenticate('jwt', {session: false}),
