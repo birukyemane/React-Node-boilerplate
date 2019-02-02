@@ -71,7 +71,7 @@ class AddStudent extends Component {
               onChange={this.handleChange}
               placeholder="Age"
             />
-            <p style={{color: 'red'}}>{errors.age}</p>
+            <p style={{color: 'red'}}>{errors.age}</p> // show the errors
 
           </FormGroup>
           <div>
