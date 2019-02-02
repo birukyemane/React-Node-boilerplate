@@ -17,7 +17,7 @@ const Header = () => {
                       <Link to="/students/add" class="nav-link" href="#">
                           Add Student
                 </Link>
-                  </li>
+                  </li> 
 
               </ul>
 
