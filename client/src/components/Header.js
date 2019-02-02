@@ -18,7 +18,6 @@ const Header = () => {
                           Add Student
                 </Link>
                   </li> 
-
               </ul>
 
           </div>
