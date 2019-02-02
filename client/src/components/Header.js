@@ -12,11 +12,10 @@ const Header = () => {
                           Students <span class="sr-only">(current)</span>
                       </Link>
                   </li>
-
                   <li class="nav-item">
                       <Link to="/students/add" class="nav-link" href="#">
                           Add Student
-                </Link>
+                      </Link>
                   </li> 
               </ul>
           </div>
