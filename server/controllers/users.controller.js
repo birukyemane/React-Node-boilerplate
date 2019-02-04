@@ -22,7 +22,7 @@ function signUp(req, res) {
     const avatar = gravatar.url(email, {s: '100', r: 'x', d: 'retro'}, true);
     const newUser = new User({name, email, password, avatar});
 
-    bcrypt.genSalt(10, function(err, salt) {
+    bcrypt.genSalt(10, function(err, salt) { // generate a salt and hash on separate function calls
       bcrypt.hash(password, salt, function(err, hash) {
         console.log(salt);
         // Store hash in your password DB.
