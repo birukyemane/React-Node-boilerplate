@@ -76,7 +76,7 @@ function signIn(req, res) {
   });
 }
 
-module.exports = {
+module.exports = { 
   signUp,
   signIn,
 };
