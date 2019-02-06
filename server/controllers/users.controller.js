@@ -19,7 +19,7 @@ function signUp(req, res) {
       return res.status(400).json(errors);
     }
 
-    const avatar = gravatar.url(email, {s: '100', r: 'x', d: 'retro'}, true);
+    const avatar = gravatar.url(email, {s: '100', r: 'x', d: 'retro'}, true); // generate avatar
     const newUser = new User({name, email, password, avatar});
 
     bcrypt.genSalt(10, function(err, salt) { // generate a salt and hash on separate function calls
