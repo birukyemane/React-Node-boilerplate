@@ -46,7 +46,7 @@ function signIn(req, res) {
     return res.status(400).json(errors);
   }
   const {email, password} = req.body;
-  User.findOne({email}).then(user => {
+  User.findOne({email}).then(user => { // check uer by email
     if (!user) {
       errors.email = 'A user doesnt exist';
       return res.status(400).json(errors);
