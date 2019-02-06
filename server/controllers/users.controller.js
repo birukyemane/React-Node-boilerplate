@@ -52,7 +52,7 @@ function signIn(req, res) {
       return res.status(400).json(errors);
     }
     //Check password
-    bcrypt.compare(password, user.password).then(isMatch => {
+    bcrypt.compare(password, user.password).then(isMatch => { // compare password with hashed password
       if (isMatch) {
         //User Matched
         const payload = {
