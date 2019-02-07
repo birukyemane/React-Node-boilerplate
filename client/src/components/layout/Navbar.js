@@ -9,8 +9,8 @@ import auth from '../../auth';
 class Navbar extends Component {
   signOut = () => {
     if (localStorage.getItem ('jwtToken')) {
-      localStorage.removeItem ('jwtToken');
-      setAuthToken (false);
+      localStorage.removeItem ('jwtToken'); // remove from local storage
+      setAuthToken (false); // remove from the header
       return <Redirect to="/signin" />;
     }
   };
