@@ -27,7 +27,7 @@ userRouter.get(
   }
 );
 
-function verifyToken(req, res, next) {
+function verifyToken(req, res, next) {  // Check to make sure header is not undefined, if so, return Forbidden (403)
   const bearerHeader = req.headers['authorization'];
   if (bearerHeader) {
     //Split at the space
