@@ -14,6 +14,7 @@ userRouter.get('/current', verifyToken, (req, res) => {
     if (err) {
       res.sendStatus(403);
     } else {
+      //If token is successfully verified, we can send the autorized data 
       res.json({message: 'A create use has been access... ', data});
     }
   });
