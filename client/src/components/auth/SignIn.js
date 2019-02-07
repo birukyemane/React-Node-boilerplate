@@ -26,6 +26,7 @@ class SignIn extends Component {
         localStorage.setItem ('jwtToken', token);
         if (localStorage.getItem ('jwtToken')) {
           auth.isAuthenticated = true;
+          // shouldnt we set the user data to the authentication??
           
           this.props.history.push ('/students');
         }
