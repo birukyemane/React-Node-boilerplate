@@ -10,7 +10,7 @@ class SignIn extends Component {
     password: '',
     errors: {},
   };
-  handleChange = e => {
+  handleChange = e => { 
     this.setState ({
       [e.target.name]: e.target.value,
     });
