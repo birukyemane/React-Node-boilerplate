@@ -64,6 +64,7 @@ function signIn(req, res) {
         console.log('pay load at user route:', payload);
         //Sign Token
         //  res.json({ msg: 'Success' })
+        //if user log in success, generate a JWT token for the user with a secret key
         jwt.sign(payload, keys.secretOrKey, {expiresIn: 3600}, (err, token) => {
           res.json({success: true, token: `Bearer ${token}`});
         });
