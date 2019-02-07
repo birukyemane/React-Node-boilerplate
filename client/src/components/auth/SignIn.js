@@ -28,7 +28,7 @@ class SignIn extends Component {
           auth.isAuthenticated = true;
           // shouldnt we set the user data to the authentication??
           
-          this.props.history.push ('/students');
+          this.props.history.push ('/students'); // redirect it to students route
         }
         this.setState ({errors: {}});
       })
