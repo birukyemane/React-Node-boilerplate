@@ -3,10 +3,10 @@
 
 ## Features
 
-* protected routes
-* authentication and authorization
-
+    * protected routes
+    * authentication and authorization
+    * 
 
 ## Technologies
 
-* React
+    * React
