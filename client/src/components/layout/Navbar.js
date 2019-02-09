@@ -42,6 +42,7 @@ class Navbar extends Component {
               className="rounded-circle"
               style={{width: '25px', marginRight: '5px'}}
             />
+            {/*do we have fontawsome*/}
             <i class="fas fa-sign-out-alt" title="sign out" />
           </a>
         </li>
@@ -70,7 +71,7 @@ class Navbar extends Component {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
            {/*why not use auth.isAuthetnicated instead??*/}
-            {localStorage.getItem ('jwtToken') ? authLinks : guestLinks} // modify the links to be shown based on if user is authenticated or not
+            {localStorage.getItem ('jwtToken') ? authLinks : guestLinks} 
           </ul>
         </div>
       </nav>
