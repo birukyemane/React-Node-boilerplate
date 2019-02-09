@@ -3,9 +3,8 @@
 
 ## Features
 
-    * protected routes
     * authentication and authorization
-    * 
+    * protected routes 
 
 ## Technologies
 
