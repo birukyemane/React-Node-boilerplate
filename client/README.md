@@ -1,9 +1,7 @@
 
-## client 
+## Client 
 
-## React Node Auth
+## Features
 
-```shell
-yarn run dev
-```
-
+* protected routes
+* authentication and authorization
