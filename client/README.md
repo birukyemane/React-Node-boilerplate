@@ -5,7 +5,7 @@
 
     * authentication and authorization
     * protected routes 
-    * users can add, 
+    * users can add, edit, update and delete
 
 ## Technologies
 
