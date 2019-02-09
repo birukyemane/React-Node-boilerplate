@@ -69,6 +69,7 @@ class Navbar extends Component {
         </Link>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
+           {/*why not use auth.isAuthetnicated instead??*/}
             {localStorage.getItem ('jwtToken') ? authLinks : guestLinks} // modify the links to be shown based on if user is authenticated or not
           </ul>
         </div>
