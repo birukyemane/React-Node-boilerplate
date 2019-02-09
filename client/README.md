@@ -8,3 +8,5 @@
 
 
 ## Technologies
+
+* React
