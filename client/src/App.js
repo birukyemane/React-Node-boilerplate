@@ -29,7 +29,7 @@ class App extends Component {
   componentDidMount () {
     this.getStudentsFromServer ();
     if (localStorage.getItem ('jwtToken')) {
-      setAuthToken (localStorage.getItem ('jwtToken')); // save it in local storage
+      setAuthToken (localStorage.getItem ('jwtToken')); // set the HTTP header with the token
       auth.isAuthenticated = true;
       auth.user = jwt_decode (localStorage.getItem ('jwtToken'));
       // this.setState ({
