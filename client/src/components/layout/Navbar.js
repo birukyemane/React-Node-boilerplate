@@ -42,7 +42,7 @@ class Navbar extends Component {
               className="rounded-circle"
               style={{width: '25px', marginRight: '5px'}}
             />
-            {/*do we have fontawsome*/}
+            {/*do we have fontawsome*/} 
             <i class="fas fa-sign-out-alt" title="sign out" />
           </a>
         </li>
