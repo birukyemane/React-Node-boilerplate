@@ -5,7 +5,7 @@ class Home extends Component {
   render () {
     return (
       <div className="jumbotron text-center">
-        <Link to="/students">Check Presentations</Link>
+        <Link to="/students">Check Presentations</Link> 
       </div>
     );
   }
