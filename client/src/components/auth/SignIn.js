@@ -23,7 +23,7 @@ class SignIn extends Component {
       .post ('/api/users/signin', data)
       .then (res => {
         const {token} = res.data;
-        localStorage.setItem ('jwtToken', token);
+        localStorage.setItem ('jwtToken', token); // store the token
         if (localStorage.getItem ('jwtToken')) {
           auth.isAuthenticated = true;
           // shouldnt we set the user data to the authentication??          
