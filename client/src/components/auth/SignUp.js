@@ -22,7 +22,7 @@ class SignUp extends Component {
     const {name, email, password, password2} = this.state;
     const data = {name, email, password, password2};
     axios
-      .post('/api/users/signup', data)
+      .post('/api/users/signup', data) 
       .then(res => {
         this.setState({
           errors: {},
